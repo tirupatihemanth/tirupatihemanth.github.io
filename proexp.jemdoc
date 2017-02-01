@@ -1,0 +1,15 @@
+# jemdoc: menu{MENU}{proexp.html}, addcss{jemdoc.css}, notime
+= Professional Experience
+
+== Internships
+
+- *Improving Bing Search Experience for Developer Queries - Microsoft IDC* \n
+Mentor: [https://www.linkedin.com/in/chandrashekhar-kaushik-43249ab Chandrashekhar Kaushik] \n
+Built a binary classification model to detect if a StackOverflow page is snippetable (Ability of a StackOverflow page to answer the question of OP with one or more snippet(s)) or not. Designed various new techniques based on clustering, software similarity (used n-gram, API calls) measures for representative snippet picking from a StackOverflow page.
+
+- *Implemented Search Functionality for [https://drumup.io/ DrumUp] - Godot Media Pvt. Ltd.* \n
+Mentor: [https://www.linkedin.com/in/vdutta1 Vishal Dutta] \n Implemented keyword-based search functionality to return a ranked list of related documents for a user-defined query. The users can also input an expression with binary operations for a more refined search. Also worked on categorization of various articles based on keywords to supplement user experience with more related articles.
+
+~~~
+Reports couldn't be shared owing to the respective companies information confidentiality policies
+~~~

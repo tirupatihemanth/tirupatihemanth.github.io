@@ -1,0 +1,37 @@
+# jemdoc: menu{MENU}{projects.html}, addcss{jemdoc.css}, notime
+= Projects
+
+- *Side Channel Attacks on Google Chrome Web Browser* \n 
+Mentor: [http://www.cse.iitm.ac.in/~chester/ Dr. Chester Rebeiro] \n 
+Developed a tool which runs as a typical user level process and predict the website visited by any user based on memory footprint pattern obtained from proc filesystem available on a linux machine. Used various techniques (DTW, correlation) augmented with the base implementation to improve the prediction accuracy.\n 
+\[ [https://github.com/tirupatihemanth/Sca CODE]\ ]
+
+- *Pseudo LIFO Cache Replacement Policy for Last Level Caches* \n 
+Mentor: [http://www.cse.iitm.ac.in/~madhu/ Dr. Madhu Mutyam] \n 
+Implemented probabilistic escape LIFO policy for the last level caches based on the techniques proposed in [http://ieeexplore.ieee.org/document/5375420/\#full-text-section Pseudo-LIFO] paper. Used [http://gem5.org/Main_Page GEM5] for simulation and [https://www.spec.org/benchmarks.html SPEC] for benchmarking. \n 
+ \[ [https://drive.google.com/open?id=0BxxcHTfdHCdJbEFaSnFuOWRseDA REPORT] \]
+
+- *JOS - Operating Systems Lab* \n 
+Mentor: [http://www.cse.iitm.ac.in/~chester/ Dr. Chester Rebeiro] \n
+Implemented core modules of JOS such as boot loader, memory management, user environments(processes), exception handling, multi\-tasking and also various unix library functions in an exokernel style. Created a bash like command interpreter with recursive search, piping and command history as some notable features.
+
+- *Link Augmentation for Wikipedia* \n
+Mentor: [http://www.cse.iitm.ac.in/~sutanuc/ Dr. Sutanu Chakraborti]; Collaborators: Sahiti, Chaitanya, Rajiv \n
+Suggests possible [https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Layout\#.22See_also.22_section See Also] links for a Wikipedia Stub article. Proposed and implemented Concept Vector, Hyperlink, Back\-link and Google Similarity measures to obtain the similarity between two articles. \n 
+\[ [https://drive.google.com/open?id=0BxxcHTfdHCdJd0VzQ29iZEJMcjQ REPORT] \]
+
+- *Desktop Mail Client* \n
+Used JavaMail API to build a Mail Client with Send, Receive and Search features. Implemented AVL Trees for balanced binary search, Object Serialization for faster reconstruction of search trees to resume the application, Multi-Threading for a responsive GUI. \n
+\[ [https://github.com/tirupatihemanth/MailManagementSystem CODE] \] \[ [https://youtu.be/5PpwRlf1oXU DEMO] \]
+
+- *[https://gabrielecirulli.github.io/2048/ 2048 Game] and It's AI Engine* \n
+Used Alph-Beta pruning to reduce the search space. Implemented in C and used Gimp Tool Kit(GTK) for GUI. \n
+\[ [https://github.com/tirupatihemanth/2048-Game-in-C-with-Auto-Solver CODE] \] \[ [https://youtu.be/EfKBDGTJ2JE DEMO] \]
+
+- *Block Cipher Confirming to AES Standard* \n
+Implemented 32bit block cipher variant of AES standard with 128bit key length and proved immunity of the implementation against known plain text, chosen plain text, linear and differential cryptanalysis. The implementation also ensures that all the multiplication tables, encryption and decryption T-tables would fit into the L1-Cache of the processor to avoid some side channel attacks. \n 
+\[ [https://github.com/tirupatihemanth/sailingSeaMonkey CODE] \] \[ [https://drive.google.com/open?id=0BxxcHTfdHCdJYWNQM2tFSVV0WEk REPORT] \]
+
+- *Customized File Transfer Protocol* \n
+Used Java Socket API to implement FTP Server and Client, Java Swing for GUI. Some of the notable features include remote file system browsing, parallel download and upload. \n
+\[ [https://drive.google.com/open?id=0BxxcHTfdHCdJcjhQelVSVnI3NEk REPORT] \]

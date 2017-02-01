@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU}{index.html}, addcss{jemdoc.css}, notime
+= Hemanth Kumar Tirupati
+
+
+~~~
+{}{img_left}{profile.jpg}{Profile Photo}{300}{300}{}
+I am a final year B.Tech student in the [http://www.cse.iitm.ac.in/ Department Of Computer Science and Engineering] from [https://www.iitm.ac.in/ IIT Madras]. My research interests are broadly in the areas Operating Systems, Computer System Design and Computer Architecture. I also love to explore Machine Learning & AI.
+
+I currently pursue my B.Tech project under the guidance of [http://www.cse.iitm.ac.in/~madhu/ Dr. Madhu Mutyam] at [http://pace.cse.iitm.ac.in/ PACE Lab], IITM on *Cache Compression*.
+
+~~~
